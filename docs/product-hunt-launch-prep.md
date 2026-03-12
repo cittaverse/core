@@ -76,24 +76,26 @@ Try it out, star the repo, and let us know how your agents evolve!
 
 ---
 
-### 3. 媒体材料 🟡
+### 3. 媒体材料 ✅
 
 #### 需要的截图 (3-5 张)
 
 | 序号 | 内容 | 规格 | 状态 | 备注 |
 |------|------|------|------|------|
-| 1 | 项目架构图 | 1280x720 PNG | 🟡 待制作 | 展示研究→执行→验证→学习闭环 |
-| 2 | 迭代数据仪表板 | 1280x720 PNG | ✅ 已有 | metrics/dashboard.html |
-| 3 | 代码示例 | 1280x720 PNG | 🟡 待制作 | 展示核心 API 使用 |
+| 1 | 项目架构图 | 1280x720 SVG | ✅ 已完成 | `media/auto-evolve-architecture.svg` |
+| 2 | 迭代数据仪表板 | 1280x720 HTML | ✅ 已有 | `metrics/dashboard.html` |
+| 3 | 代码示例 | 1280x720 SVG | ✅ 已完成 | `media/auto-evolve-code-example.svg` |
 | 4 | GitHub 仓库截图 | 1280x720 PNG | 🟡 待制作 | 展示 stars/forks/issues |
 | 5 | 文档站点截图 | 1280x720 PNG | 🟡 待制作 | cittaverse.github.io/auto-evolve |
 
 **截图制作任务**:
-- [ ] 使用 nano-banana-pro 生成架构图
-- [ ] 截取 metrics dashboard
-- [ ] 截取代码示例
-- [ ] 截取 GitHub 仓库页面
-- [ ] 截取文档站点
+- [x] 使用 SVG 生成架构图 (替代 nano-banana-pro，API key 问题)
+- [x] 使用 SVG 生成代码示例可视化
+- [ ] 截取 metrics dashboard (浏览器不可用时跳过)
+- [ ] 截取 GitHub 仓库页面 (浏览器不可用时跳过)
+- [ ] 截取文档站点 (浏览器不可用时跳过)
+
+**备注**: 浏览器工具当前不可用，核心架构图和代码示例已通过 SVG 完成。剩余截图可在发布日前手动补充。
 
 ---
 

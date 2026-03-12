@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#1e1e2e"/>
+  
+  <!-- Title -->
+  <text x="640" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">Auto-Evolve Framework - Code Example</text>
+  <text x="640" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">Simple API for Agent Self-Evolution</text>
+  
+  <!-- Code Window -->
+  <rect x="100" y="120" width="1080" height="480" fill="#2d2d44" rx="10" stroke="#4a4a6a" stroke-width="2"/>
+  
+  <!-- Window Controls -->
+  <circle cx="130" cy="150" r="8" fill="#ff5f56"/>
+  <circle cx="160" cy="150" r="8" fill="#ffbd2e"/>
+  <circle cx="190" cy="150" r="8" fill="#27c93f"/>
+  
+  <!-- Code Content -->
+  <text x="140" y="200" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">from</text>
+  <text x="180" y="200" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">auto_evolve</text>
+  <text x="320" y="200" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">import</text>
+  <text x="380" y="200" font-family="Consolas, monospace" font-size="16" fill="#8be9fd">Agent</text>
+  <text x="450" y="200" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="470" y="200" font-family="Consolas, monospace" font-size="16" fill="#8be9fd">EvolutionLoop</text>
+  
+  <text x="140" y="240" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">import</text>
+  <text x="200" y="240" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">json</text>
+  <text x="260" y="240" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="280" y="240" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">sqlite3</text>
+  
+  <!-- Blank line -->
+  
+  <text x="140" y="300" font-family="Consolas, monospace" font-size="16" fill="#6272a4"># Initialize agent with domain knowledge</text>
+  <text x="140" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">agent =</text>
+  <text x="220" y="340" font-family="Consolas, monospace" font-size="16" fill="#8be9fd">Agent</text>
+  <text x="280" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">(</text>
+  <text x="300" y="340" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">domain</text>
+  <text x="380" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">=</text>
+  <text x="400" y="340" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">"github_seo"</text>
+  <text x="540" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="560" y="340" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">goals</text>
+  <text x="640" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">=[</text>
+  <text x="660" y="340" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">"increase_stars"</text>
+  <text x="840" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="860" y="340" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">"improve_docs"</text>
+  <text x="1020" y="340" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">])</text>
+  
+  <!-- Blank line -->
+  
+  <text x="140" y="400" font-family="Consolas, monospace" font-size="16" fill="#6272a4"># Configure evolution loop</text>
+  <text x="140" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">loop =</text>
+  <text x="220" y="440" font-family="Consolas, monospace" font-size="16" fill="#8be9fd">EvolutionLoop</text>
+  <text x="360" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">(</text>
+  <text x="380" y="440" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">agent</text>
+  <text x="450" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="470" y="440" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">max_iterations</text>
+  <text x="640" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">=</text>
+  <text x="660" y="440" font-family="Consolas, monospace" font-size="16" fill="#bd93f9">5</text>
+  <text x="680" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">,</text>
+  <text x="700" y="440" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">metrics_db</text>
+  <text x="840" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">=</text>
+  <text x="860" y="440" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">"metrics.db"</text>
+  <text x="1000" y="440" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">)</text>
+  
+  <!-- Blank line -->
+  
+  <text x="140" y="500" font-family="Consolas, monospace" font-size="16" fill="#6272a4"># Run autonomous evolution</text>
+  <text x="140" y="540" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">results</text>
+  <text x="240" y="540" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">=</text>
+  <text x="260" y="540" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">loop.</text>
+  <text x="320" y="540" font-family="Consolas, monospace" font-size="16" fill="#50fa7b">run</text>
+  <text x="360" y="540" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">()</text>
+  
+  <!-- Blank line -->
+  
+  <text x="140" y="600" font-family="Consolas, monospace" font-size="16" fill="#6272a4"># Review iteration history</text>
+  <text x="140" y="640" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">print</text>
+  <text x="210" y="640" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">(</text>
+  <text x="230" y="640" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">f"Iterations: {len(results)}"</text>
+  <text x="520" y="640" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">)</text>
+  <text x="560" y="640" font-family="Consolas, monospace" font-size="16" fill="#ff79c6">print</text>
+  <text x="630" y="640" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">(</text>
+  <text x="650" y="640" font-family="Consolas, monospace" font-size="16" fill="#f1fa8c">f"Success Rate: {results.success_rate*100:.1f}%"</text>
+  <text x="1140" y="640" font-family="Consolas, monospace" font-size="16" fill="#f8f8f2">)</text>
+  
+  <!-- Output Panel -->
+  <rect x="100" y="620" width="1080" height="80" fill="#1a1a2e" rx="5" stroke="#4a4a6a" stroke-width="1"/>
+  <text x="120" y="650" font-family="Consolas, monospace" font-size="14" fill="#50fa7b">$ python run_evolution.py</text>
+  <text x="120" y="680" font-family="Consolas, monospace" font-size="14" fill="#8be9fd">Iterations: 4</text>
+  <text x="400" y="680" font-family="Consolas, monospace" font-size="14" fill="#8be9fd">| Success Rate: 100.0%</text>
+  <text x="800" y="680" font-family="Consolas, monospace" font-size="14" fill="#8be9fd">| Total Commits: 12</text>
+  
+  <!-- Side Panel -->
+  <rect x="1050" y="120" width="200" height="480" fill="#252538" stroke="#4a4a6a" stroke-width="2"/>
+  <text x="1150" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Key Methods</text>
+  
+  <text x="1070" y="200" font-family="Consolas, monospace" font-size="13" fill="#8be9fd">Agent()</text>
+  <text x="1070" y="225" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Initialize with domain</text>
+  
+  <text x="1070" y="260" font-family="Consolas, monospace" font-size="13" fill="#8be9fd">EvolutionLoop()</text>
+  <text x="1070" y="285" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Configure iteration params</text>
+  
+  <text x="1070" y="320" font-family="Consolas, monospace" font-size="13" fill="#50fa7b">loop.run()</text>
+  <text x="1070" y="345" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Execute autonomous cycle</text>
+  
+  <text x="1070" y="380" font-family="Consolas, monospace" font-size="13" fill="#f1fa8c">results.export()</text>
+  <text x="1070" y="405" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Export metrics to JSON/CSV</text>
+  
+  <text x="1070" y="440" font-family="Consolas, monospace" font-size="13" fill="#ff79c6">loop.visualize()</text>
+  <text x="1070" y="465" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Generate dashboard HTML</text>
+  
+  <!-- Footer -->
+  <text x="640" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">github.com/cittaverse/auto-evolve</text>
+</svg>

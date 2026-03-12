@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="640" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1a1a2e">Auto-Evolve Framework</text>
+  <text x="640" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#666">AI Agent Autonomous Evolution Cycle</text>
+  
+  <!-- Center Circle -->
+  <circle cx="640" cy="360" r="120" fill="#f0f4ff" stroke="#4a90d9" stroke-width="3"/>
+  <text x="640" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a2e">Auto-Evolve</text>
+  <text x="640" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666">Framework</text>
+  
+  <!-- Research Stage (Top) -->
+  <g transform="translate(640, 140)">
+    <circle r="70" fill="#e8f5e9" stroke="#4caf50" stroke-width="3"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#2e7d32">🔍</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32">Research</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Discover opportunities</text>
+  </g>
+  
+  <!-- Execute Stage (Right) -->
+  <g transform="translate(900, 360)">
+    <circle r="70" fill="#e3f2fd" stroke="#2196f3" stroke-width="3"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#1976d2">⚙️</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1976d2">Execute</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Apply optimizations</text>
+  </g>
+  
+  <!-- Verify Stage (Bottom) -->
+  <g transform="translate(640, 580)">
+    <circle r="70" fill="#fff3e0" stroke="#ff9800" stroke-width="3"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#f57c00">✓</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f57c00">Verify</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Measure results</text>
+  </g>
+  
+  <!-- Learn Stage (Left) -->
+  <g transform="translate(380, 360)">
+    <circle r="70" fill="#fce4ec" stroke="#e91e63" stroke-width="3"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#c2185b">💡</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c2185b">Learn</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Update strategies</text>
+  </g>
+  
+  <!-- Arrows (Clockwise flow) -->
+  <!-- Research to Execute -->
+  <path d="M 720 160 Q 820 200 880 300" fill="none" stroke="#4caf50" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Execute to Verify -->
+  <path d="M 880 420 Q 820 500 720 560" fill="none" stroke="#2196f3" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Verify to Learn -->
+  <path d="M 560 560 Q 460 500 400 420" fill="none" stroke="#ff9800" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Learn to Research -->
+  <path d="M 400 300 Q 460 200 560 160" fill="none" stroke="#e91e63" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Key Features (bottom right) -->
+  <g transform="translate(850, 550)">
+    <rect width="380" height="140" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="10"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a1a2e">Key Features:</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="14" fill="#444">• Goal Autonomy</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="14" fill="#444">• Strategy Learning</text>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="14" fill="#444">• Closed-Loop Iteration</text>
+    <text x="20" y="130" font-family="Arial, sans-serif" font-size="14" fill="#444">• Quantitative Tracking</text>
+  </g>
+  
+  <!-- Validation Badge (bottom left) -->
+  <g transform="translate(50, 550)">
+    <rect width="300" height="140" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="10"/>
+    <text x="150" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2e7d32">GEO Project Validation</text>
+    <text x="150" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2e7d32">5 days · 4 iterations</text>
+    <text x="150" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2e7d32">100% Success Rate</text>
+    <text x="150" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2e7d32">~100k words documented</text>
+  </g>
+</svg>
