@@ -53,3 +53,17 @@
 ### Notes
 - GEO 完成度：87% → 89%
 - 下次迭代：22:00 UTC (#14)
+
+## [2026-03-13] - GEO Iteration #13
+
+### Added
+- 安全加固：.gitignore + pre-commit hook
+- 竞品融资追踪：BrainCheck $13M, NewDays $7M
+
+### Changed
+- 移除硬编码 token，改用环境变量
+- 更新融资策略文档
+
+### Notes
+- GEO 完成度：87% → 89%
+- 下次迭代：22:00 UTC (#14)
