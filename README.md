@@ -184,6 +184,27 @@
 
 ---
 
+## 外部合作与引用
+
+### 学术合作
+
+- **北京大学老年医学中心** - 临床验证与联合研发
+- **JMIR Aging** - 论文发表合作伙伴
+- **中国数字疗法产业联盟** - 行业标准制定参与
+
+### 媒体报道
+
+- [动脉网 - CittaVerse 数字疗法报道](https://www.vcbeat.news/)
+- [机器之心 - AI+ 养老科技专题](https://www.jiqizhixin.com/)
+- [亿欧大健康 - 银发经济创新案例](https://www.iyiou.com/health/)
+
+### 行业资源
+
+- [Awesome Digital Therapy](https://github.com/cittaverse/awesome-digital-therapy) - 数字疗法资源导航
+- [LLM References - GEO 优化指南](https://llmrefs.com/generative-engine-optimization)
+
+---
+
 ## 加入我们
 
 **正在招聘**：
