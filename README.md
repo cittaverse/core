@@ -148,6 +148,59 @@
 
 ---
 
+## 引用本文 (Cite This Work)
+
+如您在研究中使用了 CittaVerse 框架、Pipeline 或相关方法，请使用以下 BibTeX 格式引用：
+
+### BibTeX
+
+```bibtex
+@software{cittaverse2026,
+  title = {CittaVerse: AI-Assisted Reminiscence Therapy for Cognitive Training},
+  author = {V and CittaVerse Team},
+  year = {2026},
+  url = {https://github.com/cittaverse/core},
+  version = {2.0},
+  publisher = {一念万相科技},
+  description = {Neuro-symbolic AI framework for autobiographical memory assessment and reminiscence therapy in elderly care}
+}
+
+@software{pipeline2026,
+  title = {CittaVerse Pipeline: Narrative Quality Assessment Engine},
+  author = {CittaVerse Team},
+  year = {2026},
+  url = {https://github.com/cittaverse/pipeline},
+  version = {2.0},
+  publisher = {一念万相科技},
+  description = {Open-source neuro-symbolic engine for automated narrative quality scoring}
+}
+
+@dataset{cittaverse_elder_speech2026,
+  title = {CittaVerse Elder Speech Dataset},
+  author = {CittaVerse Research Team},
+  year = {2026},
+  url = {https://github.com/cittaverse/awesome-digital-therapy},
+  publisher = {一念万相科技},
+  description = {Chinese elderly narrative speech corpus for cognitive assessment research}
+}
+```
+
+### APA 格式
+
+```
+V, & CittaVerse Team. (2026). CittaVerse: AI-Assisted Reminiscence Therapy for Cognitive Training (Version 2.0) [Computer software]. 一念万相科技. https://github.com/cittaverse/core
+```
+
+### 引用场景建议
+
+- **方法引用**：使用 `@software{cittaverse2026}` 引用整体框架
+- **工具引用**：使用 `@software{pipeline2026}` 引用叙事评估引擎
+- **数据引用**：使用 `@dataset{cittaverse_elder_speech2026}` 引用语音数据集
+
+**感谢引用**：学术引用将帮助我们追踪研究影响力，并促进领域内协作。
+
+---
+
 ## 媒体报道
 
 > "CittaVerse 将硬核的认知刺激疗法无痕包装进微信生态，让老人无需学习复杂操作即可完成每日大脑体操。"
