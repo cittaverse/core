@@ -249,7 +249,7 @@ V, & CittaVerse Team. (2026). CittaVerse: AI-Assisted Reminiscence Therapy for C
 | 仓库 | 描述 |
 |------|------|
 | [cittaverse/pipeline](https://github.com/cittaverse/pipeline) | 叙事质量自动评估引擎（开源） |
-| [cittaverse/narrative-scorer](https://github.com/cittaverse/narrative-scorer) | 六维叙事评分器 v0.6.0（开源，MIT）— 事件边界检测v2 + CI/CD + 60测试 |
+| [cittaverse/narrative-scorer](https://github.com/cittaverse/narrative-scorer) | 六维叙事评分器 v0.6.0（开源，MIT）— 事件边界检测v2 + CI/CD + 60测试 + [nlg-metricverse插件](https://github.com/disi-unibo-nlp/nlg-metricverse/pull/11) |
 | [cittaverse/awesome-digital-therapy](https://github.com/cittaverse/awesome-digital-therapy) | 数字疗法资源汇总 |
 
 ---
