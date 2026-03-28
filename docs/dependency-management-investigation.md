@@ -104,9 +104,9 @@ Document the intended architecture:
 ## Next Steps
 
 1. ~~**Investigate `pipeline` repository** for existing dependency management~~ ✅ Done (has requirements.txt + pyproject.toml)
-2. **Update `scorer-migration-phase1.md`** to reflect correct integration target
+2. ~~**Update `scorer-migration-phase1.md`** to reflect correct integration target~~ ✅ Done (GEO #76)
 3. ~~**Create `pipeline/requirements.txt`** (if not exists) with `narrative-scorer>=0.7.0,<0.8.0`~~ ✅ Done (added 2026-03-28)
-4. **Implement wrapper layer** in `pipeline/services/narrative_scorer_wrapper.py`
+4. ~~**Implement wrapper layer** in `pipeline/services/narrative_scorer_wrapper.py`~~ ✅ Done (GEO #76 — skeleton complete)
 
 ---
 
@@ -118,7 +118,19 @@ Document the intended architecture:
 | 2026-03-28 06:15 | Reviewed `scorer-migration-phase1.md` | Assumed Python package |
 | 2026-03-28 06:16 | Analyzed repository purpose | Docs-only, not executable code |
 | 2026-03-28 06:17 | Documented findings | This file |
+| 2026-03-28 12:50 | Updated Next Steps (GEO #76) | Wrapper layer skeleton complete |
+
+---
+
+## Update Log (GEO #76)
+
+**2026-03-28 12:50 UTC**:
+- Wrapper layer skeleton created in `pipeline/src/services/narrative_scorer_wrapper.py`
+- Implementation plan documented in `pipeline/docs/wrapper-implementation-plan.md`
+- Phase 1-4 roadmap defined (03-31 to 04-28)
+- Blocked by: DASHSCOPE_API_KEY + narrative-scorer v0.7.0 PyPI release
 
 ---
 
 *GEO #75 — Core Dependency Management Investigation Complete*
+*GEO #76 — Wrapper Layer Skeleton Complete*
