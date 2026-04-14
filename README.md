@@ -1,5 +1,7 @@
 # CittaVerse 一念万相 🟢
 
+> If this is useful, please star — it helps others discover it.
+
 > **AI-assisted reminiscence therapy for cognitive training in elderly care**
 > 
 > 数字化生命回顾疗法 | 经临床验证的认知训练方案 | 北京大学老年医学中心联合研发
